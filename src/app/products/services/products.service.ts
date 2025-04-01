@@ -1,3 +1,4 @@
+import { environment } from './../../../environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import {
@@ -5,7 +6,6 @@ import {
   ProductsResponse,
 } from '@products/interfaces/product.interface';
 import { Observable, of, tap } from 'rxjs';
-import { environment } from 'src/environments/environment';
 
 const baseUrl = environment.baseUrl;
 

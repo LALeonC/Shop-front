@@ -1,8 +1,8 @@
-import { environment } from './../../../environments/environment.development';
+import { environment } from './../../../environments/environment';
 import { Pipe, PipeTransform } from '@angular/core';
 
 
-const baseUrl = environment.baseUrl
+const baseUrl = environment.baseUrl;
 
 @Pipe({
   name: 'productImage',
