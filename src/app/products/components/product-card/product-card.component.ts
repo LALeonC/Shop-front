@@ -13,7 +13,7 @@ export class ProductCardComponent {
   product = input.required<Product>();
 
   imageUrl = computed(() => {
-    return `http://localhost:3000/api/files/product/${
+    return `https://proyecto-angular-shop-ll.onrender.com/api/files/product/${
       this.product().images[0]
     }`;
   });
