@@ -1,4 +1,4 @@
-import { environment } from './../../../environments/environment';
+import { environment } from './../../../environments/environment.development';
 import { Pipe, PipeTransform } from '@angular/core';
 
 
